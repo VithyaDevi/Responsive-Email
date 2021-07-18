@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<title>Responsive email template</title>
+<style type="text/css">
+
+    body{
+        margin: 0;
+    }
+    table{
+        border-spacing: 0;
+    }
+    td{
+        padding: 0;
+    }
+    img{
+        border: 0;
+    }
+    .wrapper{
+        width: 100%;
+        table-layout: fixed;
+        background-color: #cccccc;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main-table{
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+    }
+    .main-column{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .main-column .column{
+        font-size: 15px;
+        width: 100%;
+        max-width: 180px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .image-column{
+        max-width: 50px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .main-article{
+        padding: 15px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .main-article .article{
+        width: 100%;
+        max-width: 280px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .button{
+        background-color: #5B2C6F;
+        color: white;
+        padding: 10px 14px;
+        border-radius: 20px;
+        font-size: 15px;
+        width: 120px;
+        cursor: grab;
+    }
+    .hr{
+        border: 0.5px solid #1C2833;
+    }
+    .hero-text{
+        text-align: center;
+        color: #B03A2E;
+        font-size: 28px;
+        text-shadow: 2px 2px 5px #F1C40F;
+        font-family:'Otomanopee One', sans-serif;
+        background-color:#F5B7B1 ;
+        height: 20px;
+    }
+    @media screen and (max-width:600px) {
+        .main-column .column {
+            max-width: 100%;
+        }
+        .main-article .article{
+            max-width: 100%;
+        }
+        
+    }
+</style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <table class="main-table">
+            <!--border around the table-->
+            <tr>
+                <td height="4" style="background-color: #D7DBDD;"></td>
+            </tr>
+            <!-- hero text-->
+            <tr>
+                <td class="hero-text" style="max-width: 100%;">
+                    <p>ABC Bank of Ontario</p>
+                </td>
+            </tr>
+            <!--hero image-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <img src="assets/hero-images.png" alt="hero-image" width="600" height="250"  style="max-width: 100%;" >
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--text area 1-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; font-size: 20px; background-color: #F5B7B1; color: #B03A2E; font-family:'Otomanopee One', sans-serif;">
+                                <p>We are making it rain</p>
+                                <p>Invest and get up to $750*</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--umbrella-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td><img src="assets/umbrella.png" alt="umbrella" width="600" style="max-width: 100%;"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--text area 2-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; font-size: 15px; background-color: #FDFEFE; color: black; padding: 15px; font-family: Arial, Helvetica, sans-serif;">
+                                <p>ABC Clients are a pretty sharp bunch. So it’s not surprising when we hear, “OK, I’m good with the savings thing. Now what?”</p>
+                                <p>You want your money to grow. (Who doesn’t, right?) We want to help you with that, too. So here’s a little something to think about: Investing in a ABC Investment Fund could be just the thing to take your savings to the next level.</p>
+                                <strong>And, if you invest by July 30, 2021, you could earn a cash Bonus of up to $750*!</strong>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--text area 3-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; font-size: 15px; background-color: #AAB7B8; color: black; font-family: Arial, Helvetica, sans-serif; padding-top: 20px;">
+                                <strong>Plus, we have some new investment options to help!</strong>
+                                <p>Our brand new Global ETF Portfolios are a next-level way to invest your savings.<br/> Click here to <a href="#">learn more about our stocks and bonds.</a></p>
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--Column 1-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="main-column">
+                                <table>
+                                    <tr>
+                                        <td style="padding-bottom: 20px; text-align: center !important;">
+                                            <strong>Help your money make more money...</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <table class="image-column">
+                                                <tr>
+                                                    <td>
+                                                        <img src="assets/logo1.png" alt="logo-1" width="50" style="max-width: 50px;">
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <strong>Autopilot Investing:</strong>
+                                                        <p>Set it up, and we’ll do the rest. We take care of rebalancing, dividend reinvestment and automatic contributions. Yup, all of that!</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <table class="image-column">
+                                                <tr>
+                                                    <td>
+                                                        <img src="assets/logo2.png" alt="logo-2" width="50" style="max-width: 50px;">
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <strong>With as little as $25:</strong>
+                                                        <p>Don’t need a fortune to start investing. Get going with as little as $25. Even small amounts add up over time.</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td>
+                                            <table class="image-column">
+                                                <tr>
+                                                    <td>
+                                                        <img src="assets/logo3.png" alt="logo-3" width="50" style="max-width: 50px;">
+                                                    </td>
+                                                </tr>
+                                            </table>
+
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <strong>It only takes 10 minutes:</strong>
+                                                        <p>You read that right. It should take you under 10 minutes to get started, so why wait?</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- i am in section-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="font-size: 15px; background-color: black; color:white; font-family: Arial, Helvetica, sans-serif; padding-top: 20px; padding: 10px; padding-bottom: 30px;">
+                                <strong>I’m in! What’s next?</strong>
+                                <p>1. Open an Investment Fund Account.</p>
+                                <p>2. Contribute to your new Account between now and July 30, 2021 to get up to $750 back in your pocket ($25 for every $5,000 you invest).</p>
+                                <p>3. Keep your contribution in your Account until at least September 30, 2021.</p>
+                                <p style="padding-bottom: 10px;">4. Get cash in your Account – Cha-ching!</p>
+                                <button class="button">Log In</button>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- how your investment section-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="font-size: 15px; background-color: white; color:black; font-family: Arial, Helvetica, sans-serif; padding-top: 30px; padding: 10px;">
+                                <strong>How your investment could look</strong>
+                                <p>If you invested $10,000 up front and $100 per month in a mix of 60% stocks and 40% bonds, you could have around $35,000 in 10 years.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <img src="assets/investment.png" alt="investment-image" width="600" style="max-width: 100%;">
+                                <p style="font-size: 10px;">This is a rough illustration only</p>
+                                <hr class="hr">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--article section-->
+            <tr>
+                <td style="font-family: Arial, Helvetica, sans-serif;">
+                    <table width="100%">
+                        <tr>
+                            <td class="main-article">
+                                <table>
+                                    <tr>
+                                        <td style="font-size: 18px; background-color: white; color:black; padding-top: 30px; padding: 10px;">
+                                            <strong>Checkout these helpful articles</strong>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- article 1-->
+                                <table class="article">
+                                    <tr>
+                                        <td>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <img src="assets/article1.png" alt="article-1" width="280" style="max-width: 280px; padding-bottom: 20px;">
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <strong>Face-Off: TFSA vs. RRSP</strong>
+                                                        <p>Q: Which is better – an RRSP or a TFSA? A: I don’t love giving a vague answer like “it depends”...</p>
+                                                        <a style="color: black; padding-bottom: 20px; !important" href="#">Read more</a>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- article 2-->
+                                <table class="article">
+                                    <tr>
+                                        <td>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <img src="assets/article2.png" alt="article-2" width="280" style="max-width: 280px; padding-bottom: 20px;">
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table>
+                                                        <strong>Top 14 Investing Terms to Know</strong>
+                                                        <p>Preet Banerjee explains the top 14 investment terms to know. Download this one handy cheat sheet ...</p>
+                                                        <a style="color: black;" href="#">Read more</a>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- footer section-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: left; font-size: 12px; background-color: #D7DBDD; color: black; padding: 15px; font-family: Arial, Helvetica, sans-serif;">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                                <p>ABC | ABC Bank of Ontario</p>
+                                <p>123 Royal Street, Toronto</p>
+                                <a style="color: black;" href="#">www.abcbank.com</a>
+                                <p><a style="color: black;" href="#"><strong>Click here to unsubscribe</strong></a> if you'd like to stop receiving promotional emails from or on behalf of ABC Investment Funds Limited</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+    
+</body>
+</html>
