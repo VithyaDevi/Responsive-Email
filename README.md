@@ -6,4 +6,4 @@
 #### Sections stacked horizontally in desktop, will be stacked vertically in mobile
 #### Some sections are hidden in desktop version and displayed in mobile version & vice versa
 
-#### Please check it here : https://vithyadevi.github.io/Responsive-Email/
+#### Please check the template here : https://vithyadevi.github.io/Responsive-Email/
