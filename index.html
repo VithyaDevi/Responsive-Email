@@ -15,6 +15,7 @@
     }
     table{
         border-spacing: 0;
+        border: 0;
     }
     td{
         padding: 0;
@@ -53,7 +54,7 @@
         vertical-align: top;
     }
     .main-article{
-        padding: 10px;
+        padding: 7px;
         width: 100%;
         padding-top: 20px;
     }
@@ -63,7 +64,17 @@
         display: inline-block;
         vertical-align: top;
     }
-
+    .main-image-text{
+        padding: 10px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .main-image-text .image-text{
+        width: 100%;
+        max-width: 280px;
+        display: inline-block;
+        vertical-align: top;
+    }
     .button{
         background-color: #5B2C6F;
         color: white;
@@ -95,8 +106,13 @@
         }
         .main-article .article{
             max-width: 100%;
+            width: 100%;
         }
 
+        .main-image-text .image-text{
+            max-width: 100%;
+            width: 100%;
+        }
         .mobile-hidden{
             display: none !important;
         }
@@ -166,7 +182,7 @@
                             <td style="text-align: center; font-size: 15px; background-color: #FDFEFE; color: black; padding: 15px; font-family: Arial, Helvetica, sans-serif;">
                                 <p>ABC Clients are a pretty sharp bunch. So it’s not surprising when we hear, “OK, I’m good with the savings thing. Now what?”</p>
                                 <p>You want your money to grow. (Who doesn’t, right?) We want to help you with that, too. So here’s a little something to think about: Investing in a ABC Investment Fund could be just the thing to take your savings to the next level.</p>
-                                <strong>And, if you invest by July 30, 2021, you could earn a cash Bonus of up to $750*!</strong>
+                                <strong style="font-size: 16px;">And, if you invest by July 30, 2021, you could earn a cash Bonus of up to $750*!</strong>
                             </td>
                         </tr>
                     </table>
@@ -195,7 +211,7 @@
                             <td class="main-column">
                                 <table>
                                     <tr>
-                                        <td style="padding-bottom: 20px; text-align: center !important;">
+                                        <td style="padding-bottom: 20px;">
                                             <strong>Help your money make more money...</strong>
                                         </td>
                                     </tr>
@@ -275,20 +291,6 @@
                     </table>
                 </td>
             </tr>
-            <!-- desktop only section-->
-            <tr class="mobile-hidden">
-                <td>
-                    <table width="100%">
-                        <tr>
-                            <td style="text-align: left; font-size: 15px; background-color: #AED6F1; color: black; font-family: Arial, Helvetica, sans-serif; padding-top: 20px; padding-bottom: 20px; padding: 10px;">
-                                <strong>Basically this section and the image below will be hidden in mobile version!</strong>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                <img src="assets/desktop-image.png" alt="desktop-image" width="600" height="260" style="max-width: 100%;">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
             <!-- i am in section-->
             <tr>
                 <td>
@@ -301,6 +303,20 @@
                                 <p>3. Keep your contribution in your Account until at least September 30, 2021.</p>
                                 <p style="padding-bottom: 10px;">4. Get cash in your Account – Cha-ching!</p>
                                 <button class="button">Log In</button>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- desktop only section-->
+            <tr class="mobile-hidden">
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: left; font-size: 15px; background-color: #AED6F1; color: black; font-family: Arial, Helvetica, sans-serif; padding-top: 20px; padding-bottom: 20px; padding: 10px;">
+                                <strong>Basically this section and the image below will be hidden in mobile version!</strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <img src="assets/desktop-image.png" alt="desktop-image" width="600" height="260" style="max-width: 100%;">
                             </td>
                         </tr>
                     </table>
@@ -360,13 +376,13 @@
                                     </tr>
                                 </table>
                                 <!-- article 1-->
-                                <table class="article">
+                                <table class="article" align="left">
                                     <tr>
                                         <td>
                                             <tr>
                                                 <td>
                                                     <table>
-                                                        <img src="assets/article1.png" alt="article-1" width="280" style="max-width: 280px; padding-bottom: 20px;">
+                                                        <img src="assets/article1.png" alt="article-1" style="max-width: 100%; padding-bottom: 20px;">
                                                     </table>
                                                 </td>
                                             </tr>
@@ -384,13 +400,13 @@
                                     </tr>
                                 </table>
                                 <!-- article 2-->
-                                <table class="article">
+                                <table class="article" align="right">
                                     <tr>
                                         <td>
                                             <tr>
                                                 <td>
                                                     <table>
-                                                        <img src="assets/article2.png" alt="article-2" width="280" style="max-width: 280px; padding-bottom: 20px;">
+                                                        <img src="assets/article2.png" alt="article-2" style="max-width: 100%; padding-bottom: 20px;">
                                                     </table>
                                                 </td>
                                             </tr>
@@ -403,6 +419,32 @@
                                                     </table>
                                                 </td>
                                             </tr>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--image/text section-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="main-image-text" style="text-align: left; font-size: 15px; padding: 10px; font-family: Arial, Helvetica, sans-serif;">
+                                <table align="left" class="image-text" width="280">
+                                    <tr>
+                                        <td>
+                                            <img src="assets/dice.png" alt="dice-image" style="max-width: 100%;">
+                                        </td>
+                                    </tr>
+                                    
+                                </table>
+                                <table align="right" class="image-text" width="280">
+                                    <tr>
+                                        <td >
+                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.Lorem ipsum dolor sit amet.</p>
                                         </td>
                                     </tr>
                                 </table>
